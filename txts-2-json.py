@@ -61,7 +61,6 @@ class FileFormatApp(QMainWindow):
 
         self.file_list = QListWidget()
         self.file_list_frame.layout().addWidget(self.file_list)
-                # ... [Previous code for UI setup]
 
         self.output_label = QLabel("Output files will be saved in the same directory as input files.")
         self.layout.addWidget(self.output_label)
@@ -140,9 +139,9 @@ class FileFormatApp(QMainWindow):
         self.json_text_edit.setPlainText(json.dumps(json_data, indent=4))
 
     def save_docx_edits(self):
-        # Logic to save edits back to DOCX (if applicable)
+        # Needs logic to save edits back to DOCX (if applicable)
         # This can be complex as it involves writing back to a DOCX format.
-        # You might need a library like python-docx for creating DOCX files.
+        # Might need a library like python-docx for creating DOCX files.
         pass
 
     def save_json_edits(self):
@@ -156,7 +155,7 @@ class FileFormatApp(QMainWindow):
                     json.dump(json_data, json_file, indent=4)
             except json.JSONDecodeError:
                 # Handle JSON format errors
-                pass  # You may want to show an error message to the user
+                pass  # May want to show an error message to the user
 
 def main():
     app = QApplication(sys.argv)
