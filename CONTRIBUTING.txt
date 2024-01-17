@@ -1,0 +1,19 @@
+## Contributing to TXTS-2-JSON
+
+# I welcome any contributions from the community! Feel free to enhance and improve this project! 
+Please follow these guidelines when contributing:
+
+1. Fork the repository and clone it locally.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes, ensuring you follow PEP 8 coding standards.
+4. Write clear and concise commit messages.
+5. Create a pull request and provide a detailed description of your changes.
+6. Ensure that your code passes all tests.
+
+# By contributing to this project, you agree to license your contributions under the MIT License!
+Let's create better tools and programs for the community!
+
+## Reporting Issues
+If you encounter bugs or issues with the application, please report them on the [GitHub Issues](https://github.com/collinsomniac/txts-2-json/issues) page.
+
+Thank you for contributing to TXTS-2-JSON!
